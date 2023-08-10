@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         }
         }
         fun signUp(){
-            Intent(this@MainActivity,LoginActivity::class.java).also{
+            Intent(this@MainActivity,RegistrationActivity::class.java).also{
                 startActivity(it)
             }
     }
